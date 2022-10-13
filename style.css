@@ -1,0 +1,19 @@
+
+body{
+    min-height: 2000px;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background: #9bcff1;
+
+}
+#projects{
+
+}
+section{
+    padding-top: 5rem;
+}
+.card img{
+    height: 350px;
+}
