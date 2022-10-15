@@ -147,6 +147,10 @@
             </div>
             <div class="row justify-content-center">
               <div class="col-md-6">
+                <div class="alert alert-primary alert-dismissible fade show d-none" role="alert">
+  <strong>Suksma!</strong> Pesan Idadne sampun katerima
+  <button type="button" class="terima kasih" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
                 <form action="https://formsubmit.co/a0b25400f411bb332349935572bf8d77" method="POST" />
                     <div class="mb-3">
                       <label for="nama" class="form-label">Nama Lengkap</label>
@@ -164,7 +168,11 @@
                         <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                       </div>
                     
-                     <button type="kirim" class="btn btn-primary">Kirim</button>
+                     <button type="kirim" class="btn btn-primary btn-kirim">Kirim</button>
+                <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...
+</button>
                   </form>
               </div>  
             </div>
